@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prompt</title>
+</head>
+<body>
+    <!-- GET DATA FROM THE USER,USING JAVASCRIPT PROMPT METHOD -->
+    Name:<i id="result"></i>
+    <br>
+    <button onclick="call()">call</button>
+    
+</body>
+<script type="text/javascript">
+    function call(){
+        var name=prompt("Enter Your Name:","");
+        //document.write(result);
+        document.getElementById('result').innerHTML=name;
+
+    }
+   
+</script>
+</html>

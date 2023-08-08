@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <div id="main">
+        WELCOME TO MY PAGE
+    </div>
+    <div class="main">
+        WELCOME
+    </div>
+    <div class="main">
+        HELLO EVERY ONE.
+    </div>
+    
+</body>
+<!-- Document Object Methode -->
+<Script type="text/javascript">
+        // BY ID
+     document.getElementById('main').innerHTML="<h1> WELCOME TO MY PAGE </h1>";
+        // BY NAME
+     document.getElementsByClassName('main')[0].innerHTML="HELLO EVERY ONE";
+     document.getElementsByClassName('main')[1].innerHTML="WELCOME";
+    
+</Script>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPERATOR</title>
+</head>
+<body>
+    <h1 id="result" style="margin: 49px auto; width: 300px;"></h1>
+    
+</body>
+<script type="text/javascript">
+    var x=false; //AND operator:it is true when its both values is true and true when both values are true.
+    var y=false;
+    var z=x && y;
+    document.getElementById('result').innerHTML=z;
+    var x=1;//true //OR operator:it is true when one of its  values is true and false when both values are false.
+    var y=1;//true
+    var z=x || y;
+    document.getElementById('result').innerHTML=z;
+    //ternary operatot
+    //<condition>?"yes":"no";
+    var x=4;
+    var y=3;
+    var z;
+    z =x < y ? "Yes":"No";
+    document.getElementById('result').innerHTML=z;
+
+
+</script>
+</html>

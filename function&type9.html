@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function and its types</title>
+</head>
+<body>
+    <input type="text" name="name" id="name">
+    <button onclick="greet()">Greet</button>
+    <div class="greet">
+
+    </div>
+    
+</body>
+<script type="text/javascript"> 
+        //USER DEFINED FUNCTION:
+        function greet(){ 
+         var name=document.getElementById('name').value;
+         var string="Hello " + name;
+         document.getElementsByClassName('greet')[0].innerHTML= string;
+
+        }
+
+</script>
+</html>
